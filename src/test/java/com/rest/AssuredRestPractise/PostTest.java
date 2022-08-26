@@ -23,6 +23,6 @@ public class PostTest {
 		given().
 			body(request.toJSONString()).
 				when().post("https://reqres.in/api/users").
-					then().statusCode(200);
+					then().statusCode(201);
 	}
 }
