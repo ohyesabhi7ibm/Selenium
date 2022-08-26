@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 19.557 s <<< FAILURE! - in TestSuite
+postTest1(com.rest.AssuredRestPractise.PostTest)  Time elapsed: 1.231 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <201>.
+
+	at com.rest.AssuredRestPractise.PostTest.postTest1(PostTest.java:26)
+
