@@ -24,5 +24,5 @@ public class PostTest {
 			body(request.toJSONString()).
 				when().post("https://reqres.in/api/users").
 					then().statusCode(201);
-	}
+	System.out.print("all done");}
 }
